@@ -1,0 +1,30 @@
+export const environment = {
+  production: true,
+  ngxUiConfig: {
+    bgsColor: '#2ef700',
+    bgsOpacity: 0.5,
+    bgsPosition: 'bottom-right',
+    bgsSize: 60,
+    bgsType: 'rectangle-bounce',
+    blur: 5,
+    fgsColor: '#FFAA00',
+    fgsPosition: 'center-center',
+    fgsSize: 60,
+    fgsType: 'rectangle-bounce',
+    gap: 24,
+    logoPosition: 'center-center',
+    logoSize: 120,
+    // logoUrl: 'assets/images/logo.jpg',
+    masterLoaderId: 'master',
+    overlayBorderRadius: '0',
+    overlayColor: 'rgba(255,254,254,0.87)',
+    pbColor: '#00ACC1',
+    pbDirection: 'ltr',
+    pbThickness: 5,
+    hasProgressBar: true,
+    text: '',
+    textColor: '#000000',
+    textPosition: 'center-center',
+    // threshold: 500
+  }
+};
