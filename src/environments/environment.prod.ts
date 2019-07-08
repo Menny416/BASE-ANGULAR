@@ -18,7 +18,7 @@ export const environment = {
     masterLoaderId: 'master',
     overlayBorderRadius: '0',
     overlayColor: 'rgba(255,254,254,0.87)',
-    pbColor: '#00ACC1',
+    pbColor: '#FFAA00',
     pbDirection: 'ltr',
     pbThickness: 5,
     hasProgressBar: true,

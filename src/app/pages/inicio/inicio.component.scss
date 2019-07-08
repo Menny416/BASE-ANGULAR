@@ -2,6 +2,10 @@
     Common
 */
     
+    .ajust-title {
+        margin-left: 10px;
+    }
+    
     .wizard,
     .tabcontrol {
         display: block;
@@ -93,7 +97,7 @@
     .wizard>.steps .current a,
     .wizard>.steps .current a:hover,
     .wizard>.steps .current a:active {
-        background: #1AB394;
+        background: #FF9900;
         color: #fff;
         cursor: default;
     }
@@ -101,7 +105,7 @@
     .wizard>.steps .done a,
     .wizard>.steps .done a:hover,
     .wizard>.steps .done a:active {
-        background: #6fd1bd;
+        background: #FFB061;
         color: #fff;
     }
     
@@ -138,9 +142,9 @@
     
     .wizard>.content>.body {
         float: left;
-        position: absolute;
-        width: 95%;
-        height: 95%;
+        // position: absolute;
+        width: 100%;
+        height: auto;
         padding: 2.5%;
     }
     
@@ -214,7 +218,7 @@
     .wizard>.actions a,
     .wizard>.actions a:hover,
     .wizard>.actions a:active {
-        background: #1AB394;
+        background: #34495e;
         color: #fff;
         display: block;
         padding: 0.5em 1em;
