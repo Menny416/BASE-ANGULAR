@@ -168,7 +168,7 @@ h5 {
   font-size: 12px;
 }
 .nav-header {
-  padding: 33px 25px;
+  padding: 10px 25px;
   background-color: #2f4050;
   background-image: url("patterns/header-profile.png");
 }
@@ -312,7 +312,7 @@ body.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
   font-weight: 600;
   color: white;
   display: none;
-  padding: 18px 0;
+  padding: 10px 0;
 }
 .pace-done .navbar-static-side,
 .pace-done .nav-header,
@@ -651,8 +651,8 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
   color: #fff;
 }
 .btn-primary {
-  background-color: #1ab394;
-  border-color: #1ab394;
+  background-color: #34495e;
+  border-color: #34495e;
   color: #FFFFFF;
 }
 .btn-primary:hover,
@@ -664,8 +664,8 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 .btn-primary:active:hover,
 .btn-primary.active:hover,
 .btn-primary.active:focus {
-  background-color: #18a689;
-  border-color: #18a689;
+  background-color: #3f5970;
+  border-color: #3f5970;
   color: #FFFFFF;
 }
 .btn-primary:active,
@@ -1761,7 +1761,7 @@ div.dt-button-info {
   display: none;
 }
 .pace .pace-progress {
-  background: #1ab394;
+  background: #ff9900;
   position: fixed;
   z-index: 2040;
   top: 0;
@@ -3921,15 +3921,14 @@ code {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  background-color: #ffffff;
-  border-color: #e7eaec;
-  border-image: none;
-  border-style: solid solid none;
-  border-width: 2px 0 0;
-  color: inherit;
-  margin-bottom: 0;
-  padding: 15px 15px 7px;
-  min-height: 48px;
+  background: #f7f9fa;
+  border-color: #e4e5e7;
+  border: 1px solid #e4e5e7;
+  padding: 10px 10px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
 }
 .ibox-content {
   background-color: #ffffff;
@@ -3937,7 +3936,7 @@ code {
   padding: 15px 20px 20px 20px;
   border-color: #e7eaec;
   border-image: none;
-  border-style: solid solid none;
+  /* border-style: solid solid none; */
   border-width: 1px 0;
 }
 .ibox-footer {
@@ -3987,8 +3986,8 @@ table.table-mail tr td {
 .ibox-title h5 {
   display: inline-block;
   font-size: 14px;
-  margin: 0 0 7px;
-  padding: 0;
+  margin: 2px;
+  /* padding: 0; */
   text-overflow: ellipsis;
   float: left;
 }

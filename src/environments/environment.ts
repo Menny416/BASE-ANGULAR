@@ -1,4 +1,4 @@
-import { NgxUiLoaderConfig } from 'ngx-ui-loader';
+// import { NgxUiLoaderConfig } from 'ngx-ui-loader';
 
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
@@ -24,7 +24,7 @@ export const environment = {
     masterLoaderId: 'master',
     overlayBorderRadius: '0',
     overlayColor: 'rgba(255,254,254,0.87)',
-    pbColor: '#00ACC1',
+    pbColor: '#FFAA00',
     pbDirection: 'ltr',
     pbThickness: 5,
     hasProgressBar: true,
