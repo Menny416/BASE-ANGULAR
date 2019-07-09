@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 declare var $: any;
 
 @Component({
@@ -12,7 +13,17 @@ export class InicioComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $('#fecha-inicio').datepicker();
+   
+    $(function ()
+    {
+        $("#wizard").steps({
+            headerTag: "h2",
+            bodyTag: "section",
+            transitionEffect: "slideLeft"
+        });
+
+        $('#fecha-inicio').datepicker();
+    });
   }
 
 }

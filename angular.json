@@ -39,6 +39,8 @@
                             "src/assets/vendor/plugins/slimscroll/jquery.slimscroll.min.js",
                             "src/assets/vendor/inspinia.js",
                             "src/assets/vendor/plugins/pace/pace.min.js",
+                            "src/assets/vendor/jquery.steps.min.js",
+                            "src/assets/vendor/plugins/validate/jquery.validate.min.js",
                             "node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"
                         ]
                     },

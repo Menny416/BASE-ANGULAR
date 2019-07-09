@@ -11,7 +11,7 @@ import { GeneralInterceptorService } from './interceptors/general-interceptor.se
 // PLUGINS
 import { NgxUiLoaderModule, NgxUiLoaderHttpModule, NgxUiLoaderConfig, POSITION, NgxUiLoaderRouterModule } from 'ngx-ui-loader';
 import { PipesModule } from './pipes/pipes.module';
-
+// import { FormWizardModule } from 'angular2-wizard';
 
 const ngxUiLoaderConfig: any = environment.ngxUiConfig;
 
@@ -31,6 +31,7 @@ const ngxUiLoaderConfig: any = environment.ngxUiConfig;
       showForeground: true,
       exclude: [ ]
     }),
+    // FormWizardModule
   ],
   providers: [
     {
