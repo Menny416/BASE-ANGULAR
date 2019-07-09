@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~8.0.1",
     "@angular/platform-browser-dynamic": "~8.0.1",
     "@angular/router": "~8.0.1",
+    "@types/bootstrap-datepicker": "0.0.13",
     "@types/jquery": "^3.3.30",
     "angular-archwizard": "^4.0.0",
     "angular-wizard-form": "^0.4.1",
