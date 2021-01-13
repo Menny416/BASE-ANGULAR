@@ -29,7 +29,7 @@
     "font-awesome-scss": "^1.0.0",
     "jquery": "^3.4.1",
     "jquery-ui": "^1.12.1",
-    "jquery-validation": "^1.19.1",
+    "jquery-validation": "^1.19.3",
     "metismenu": "^3.0.4",
     "ngx-ui-loader": "^8.0.0",
     "popper.js": "^1.15.0",
